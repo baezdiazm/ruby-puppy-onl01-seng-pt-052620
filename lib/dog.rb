@@ -14,6 +14,6 @@ class Dog
  end
 
 def self.clear_all
-@@all.pop (@@all)
+@@all = []
 end
 end
