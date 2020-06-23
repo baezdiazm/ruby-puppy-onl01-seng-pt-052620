@@ -21,7 +21,7 @@ def self.print_all
 puts @@all
 end
 
-def save
-
+def save(this_dog)
+@@all << this_dog
 end
 end
