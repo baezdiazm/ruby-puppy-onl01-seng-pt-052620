@@ -17,6 +17,7 @@ class Dog
 
   def self.clear_all
     @@all = []
+    @@all_names = []
   end
 
   def self.print_all
